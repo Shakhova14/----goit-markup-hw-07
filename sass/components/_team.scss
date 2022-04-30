@@ -1,5 +1,5 @@
 .our-team {
-    background-color: #F5F4FA;
+    background-color: $secondary-bkg-color;
 }
 
 .team {
@@ -32,7 +32,7 @@
 .team__person {
     width: 270px;
     height: 428px;
-    background: #FFFFFF;
+    background: $primary-white-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -44,16 +44,7 @@
 }
 }
 
-.team__person .soclink {
-    display: inline-flex;
-    fill: #AFB1B8;
-    margin-bottom: 30px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-&:hover,
-&:focus {
-    fill: $primary-white-color;
-}
-}
+
 
 
 
